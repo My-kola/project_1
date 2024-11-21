@@ -1,0 +1,186 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: inter, Arial;
+  color: #5C6168;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.1px;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+.left-section {
+  max-width: 205px;
+  width: 100%;
+  background: #E8EAEE;
+  padding: 39px 10px 0px 45px;
+}
+.user-info, .user-info-general {
+  display: flex;
+  flex-direction: column;
+}
+.user-info-general{
+  gap: 12px;
+}
+.user-info-fullname {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5C6168;
+  line-height: 24.2px;
+}
+.user-info-position-block {
+  display: flex;
+  flex-direction: row;
+}
+.user-info-position {
+  font-size: 10px;
+  display: flex;
+  gap: 7px;
+  padding-bottom: 8px;
+}
+.user-info-position-mark {
+  width: 10px;
+height: 6px;
+background-color: #d67215;
+margin-right: 8px;
+margin-top: 4px;
+flex-shrink: 0;
+}
+.user-info-location {
+  color: #5C6168;
+  font-size: 10px;
+  display: flex;
+}
+.user-info-location > img {
+  margin-right: 8px;
+  width: 8px;
+  height: 10px;
+}
+h2 {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  line-height: 15.73px;
+}
+.education {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-line, .skills-bottom-line, .bottom-line-wide {
+  height: 1px;
+  width: 26px;
+  background-color: #5C6168;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.course-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 10px;
+  margin-bottom: 16px;
+  padding-right: 14px;
+}
+h3 {
+  font-weight: 600;
+}
+.course-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 10px;
+  padding-right: 14px;
+  margin-bottom: 25px;
+}
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  width: 146px;
+  height: 156px;
+  gap: 6px;
+  list-style-position: inside;
+  padding-top: 16px;
+}
+#photo {
+  width: 116px;
+  border-radius: 50%;
+}
+.photo-cv {
+  display: flex;
+  padding: 39px 0px 0px 24px;
+}
+a {
+  color: #5C6168;
+  background-color: transparent;
+  text-decoration: none;
+}
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  height: 84.39px;
+  width: 206px;
+  gap: 6px;
+  padding: 59px 22px 0px 0px;
+}
+.logo-mail {
+  width: 9px;
+}
+.logo-telephone {
+  width: 6.36px;
+}
+.logo-linkedin {
+  width: 8px;
+}
+.logo-behance {
+  width: 10px;
+}
+.logo-dribbble{
+  width: 10px;
+}
+.photo-contact {
+  display: flex;
+  flex-direction: row;
+}
+.contact-information span,
+.contact-information a {
+  padding-left: 22px;
+}
+.logo {
+  padding-left: 22px;
+}
+.profile {
+  padding-top: 21px;
+}
+.experience {
+  padding-top: 24px;
+}
+.profile-and-experience {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  margin-left: 24px;
+}
+.bottom-line-wide {
+  width: 100px;
+  margin-left: -24px;
+}
+.company-country-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.expirience-list {
+  list-style-position: inside;
+  padding: 8px;
+}
+.job-position-top {
+  display: flex;
+  flex-direction:column;
+  gap: 6px;
+}
+.job-position-2, .job-position-3 {
+  padding-top: 16px;
+}
