@@ -33,6 +33,7 @@ body {
 .user-info-position-block {
   display: flex;
   flex-direction: row;
+  gap: 7px;
 }
 .user-info-position {
   font-size: 10px;
@@ -183,4 +184,33 @@ a {
 }
 .job-position-2, .job-position-3 {
   padding-top: 16px;
+}
+.user-info-position-block::before {
+  position: static;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 6px;
+  background-color: #d67215;
+  flex-shrink: 0;
+}
+h2::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 26px;
+  background-color: #5C6168;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.right-section h2::after {
+  width: 100px;
+  margin-left: -24px;
+}
+.user-info-location::before {
+  content: url(/images/Vector.svg);
+  position: static;
+  margin-right: 8px;
+  width: 8px;
+  height: 10px;
 }
