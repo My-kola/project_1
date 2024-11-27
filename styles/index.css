@@ -96,15 +96,7 @@ h3 {
   padding-right: 14px;
   margin-bottom: 25px;
 }
-.skills-list {
-  display: flex;
-  flex-direction: column;
-  width: 146px;
-  height: 156px;
-  gap: 6px;
-  list-style-position: inside;
-  padding-top: 16px;
-}
+
 #photo {
   width: 116px;
   border-radius: 50%;
@@ -213,4 +205,72 @@ h2::after {
   margin-right: 8px;
   width: 8px;
   height: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  width: 146px;
+  height: 156px;
+  gap: 6px;
+  padding-top: 16px;
+}
+.skills-list span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skills-list >span::before {
+  position: static;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+  flex-shrink: 0;
+  margin-right: 12px;
+  background-color: #5C6168;
+}
+.expirience-list span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+.expirience-list span::before{
+  position: static;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+  flex-shrink: 0;
+  margin-right: 12px;
+  background-color: #5C6168;
+}
+
+.logo-mail::before{
+  content: url(/images/logo-mail.svg);
+  position: static;
+  margin-right: 14px;
+}
+.logo-telephone::before {
+  content: url(/images/logo-phone.svg);
+  position: static;
+  margin-right: 15.64px;
+}
+.logo-linkedin::before {
+  content: url(/images/logo-linkedin.svg);
+  position: static;
+  margin-right: 14px;
+}
+.logo-behance::before {
+  content: url(/images/logo-behance.svg);
+  position: static;
+  margin-right: 14px;
+}
+.logo-dribbble::before {
+  content: url(/images/logo-dribbble.svg);
+  position: static;
+  margin-right: 14px;
 }
